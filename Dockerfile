@@ -8,6 +8,7 @@ LABEL image_tag="latest"
 
 RUN apt-get update && apt-get install -y \
     cmake \
+    git \
     build-essential \
     libxrandr-dev \
     libxcursor-dev \
